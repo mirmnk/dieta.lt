@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Maistoforo FE laiblai</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="list_mode_1">Mode 1</label>
+            <label index="list_mode_2">Mode 2</label>
+            <label index="list_mode_3">Mode 3</label>
+            <label index="back">Back</label>
+            <label index="submit_button_label">Click here to submit value</label>
+            <label index="vitamin.a">A</label>
+            <label index="vitamin.d">D</label>
+            <label index="vitamin.e">E</label>
+            <label index="vitamin.b1">B1</label>
+            <label index="vitamin.b2">B2</label>
+            <label index="vitamin.b5">PP or B5</label>
+            <label index="vitamin.b6">B6</label>
+            <label index="vitamin.b9">Folio rugðtis arba B9</label>
+            <label index="vitamin.b12">B12</label>
+            <label index="vitamin.c">C</label>
+            <label index="vitamin.h">H</label>
+            <label index="vitamin.b3">B3</label>
+            <label index="vitamin.vit_k">Vitamin K</label>
+            <label index="vitamin.description">Vitamin description</label>
+            <label index="tx_vvmaistoforas.product">Product</label>
+            <label index="tx_vvmaistoforas.vitamin">Vitamin</label>
+            <label index="tx_vvmaistoforas.nutrient">Nutrient</label>
+            <label index="tx_vvmaistoforas.mineral">Mineral substance</label>
+            <label index="tx_vvmaistoforas.food_group">Food group</label>
+            <label index="nutrient.augaliniai_baltymai">augaliniai_baltymai</label>
+            <label index="nutrient.augaliniai_riebalai">augaliniai_riebalai</label>
+            <label index="nutrient.angliavandeniai_krakmolas">angliavandeniai_krakmolas</label>
+            <label index="nutrient.angliavandeniai_cukrus">angliavandeniai_cukrus</label>
+            <label index="nutrient.angliavandeniai_maistines_skaidulos">angliavandeniai_maistines_skaidulos</label>
+            <label index="nutrient.baltymai">baltymai</label>
+            <label index="nutrient.angliavandeniai">angliavandeniai</label>
+            <label index="nutrient.riebalai">riebalai</label>
+            <label index="nutrient.description">Nutrient description</label>
+            <label index="mineral.na">Na</label>
+            <label index="mineral.mg">Mg</label>
+            <label index="mineral.p">P</label>
+            <label index="mineral.k">K</label>
+            <label index="mineral.ca">Ca</label>
+            <label index="mineral.fe">Fe</label>
+            <label index="mineral.zn">Zn</label>
+            <label index="mineral.se">Se</label>
+            <label index="mineral.j">J</label>
+            <label index="mineral.description">Mineral substance description</label>
+            <label index="food_group.description">Food group description</label>
+            <label index="food_group.1">1</label>
+            <label index="food_group.2">2</label>
+            <label index="food_group.3">3</label>
+            <label index="food_group.4">4</label>
+            <label index="food_group.5">5</label>
+            <label index="food_group.6">6</label>
+            <label index="food_group.0">0</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="list_mode_1">Visning 1</label>
+            <label index="list_mode_2">Visning 2</label>
+            <label index="list_mode_3">Visning 3</label>
+            <label index="back">Tilbage</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="vitamin.a">A</label>
+            <label index="vitamin.d">D</label>
+            <label index="vitamin.e">E</label>
+            <label index="vitamin.b1">B1</label>
+            <label index="vitamin.b2">B2</label>
+            <label index="vitamin.b5">PP arba B5</label>
+            <label index="vitamin.b6">B6</label>
+            <label index="vitamin.b9">Folio rugštis arba B9</label>
+            <label index="vitamin.b12">B12</label>
+            <label index="vitamin.c">C</label>
+            <label index="vitamin.h">H</label>
+            <label index="vitamin.b3">B3</label>
+            <label index="vitamin.vit_k">Vitaminas K</label>
+            <label index="vitamin.description">Vitamino aprašymas</label>
+            <label index="tx_vvmaistoforas.product">Produktas</label>
+            <label index="tx_vvmaistoforas.vitamin">Vitaminas</label>
+            <label index="tx_vvmaistoforas.nutrient">Maistinė medžiaga</label>
+            <label index="tx_vvmaistoforas.mineral">Mineralinė medžiaga</label>
+            <label index="tx_vvmaistoforas.food_group">Maisto grupė</label>
+            <label index="nutrient.augaliniai_baltymai">Augaliniai baltymai</label>
+            <label index="nutrient.augaliniai_riebalai">Augaliniai riebalai</label>
+            <label index="nutrient.angliavandeniai_krakmolas">Angliavandeniai krakmolas</label>
+            <label index="nutrient.angliavandeniai_cukrus">Angliavandeniai cukrus</label>
+            <label index="nutrient.angliavandeniai_maistines_skaidulos">Angliavandeniai maistinės skaidulos</label>
+            <label index="nutrient.baltymai">Baltymai</label>
+            <label index="nutrient.angliavandeniai">Angliavandeniai</label>
+            <label index="nutrient.riebalai">Riebalai</label>
+            <label index="nutrient.description">Maistinės medžiagos aprašymas</label>
+            <label index="mineral.description">Mineralinės medžiagos aprašymas</label>
+            <label index="food_group.description">Maisto grupės aprašymas</label>
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="list_mode_1" type="integer">69879231</label>
+            <label index="list_mode_2" type="integer">35312575</label>
+            <label index="list_mode_3" type="integer">115390729</label>
+            <label index="back" type="integer">5603241</label>
+            <label index="submit_button_label" type="integer">236457811</label>
+            <label index="vitamin.a" type="integer">133977639</label>
+            <label index="vitamin.d" type="integer">258096757</label>
+            <label index="vitamin.e" type="integer">61073920</label>
+            <label index="vitamin.b1" type="integer">211096150</label>
+            <label index="vitamin.b2" type="integer">196974512</label>
+            <label index="vitamin.b5" type="integer">39357272</label>
+            <label index="vitamin.b6" type="integer">109780764</label>
+            <label index="vitamin.b9" type="integer">170607054</label>
+            <label index="vitamin.b12" type="integer">145555074</label>
+            <label index="vitamin.c" type="integer">14032771</label>
+            <label index="vitamin.h" type="integer">203267920</label>
+            <label index="vitamin.b3" type="integer">12905687</label>
+            <label index="vitamin.vit_k" type="integer">233693079</label>
+            <label index="vitamin.description" type="integer">194011223</label>
+            <label index="tx_vvmaistoforas.product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas.vitamin" type="integer">137567981</label>
+            <label index="tx_vvmaistoforas.nutrient" type="integer">19751121</label>
+            <label index="tx_vvmaistoforas.mineral" type="integer">143643337</label>
+            <label index="tx_vvmaistoforas.food_group" type="integer">30866765</label>
+            <label index="nutrient.augaliniai_baltymai" type="integer">185054621</label>
+            <label index="nutrient.augaliniai_riebalai" type="integer">20588255</label>
+            <label index="nutrient.angliavandeniai_krakmolas" type="integer">212753066</label>
+            <label index="nutrient.angliavandeniai_cukrus" type="integer">179095002</label>
+            <label index="nutrient.angliavandeniai_maistines_skaidulos" type="integer">168388234</label>
+            <label index="nutrient.baltymai" type="integer">13911109</label>
+            <label index="nutrient.angliavandeniai" type="integer">82774877</label>
+            <label index="nutrient.riebalai" type="integer">111295537</label>
+            <label index="nutrient.description" type="integer">222791195</label>
+            <label index="mineral.na" type="integer">153074719</label>
+            <label index="mineral.mg" type="integer">183946680</label>
+            <label index="mineral.p" type="integer">72100333</label>
+            <label index="mineral.k" type="integer">174013546</label>
+            <label index="mineral.ca" type="integer">54975879</label>
+            <label index="mineral.fe" type="integer">224939907</label>
+            <label index="mineral.zn" type="integer">102507890</label>
+            <label index="mineral.se" type="integer">173653322</label>
+            <label index="mineral.j" type="integer">267666800</label>
+            <label index="mineral.description" type="integer">6683957</label>
+            <label index="food_group.description" type="integer">191519157</label>
+            <label index="food_group.1" type="integer">206349347</label>
+            <label index="food_group.2" type="integer">209839912</label>
+            <label index="food_group.3" type="integer">248298631</label>
+            <label index="food_group.4" type="integer">176684903</label>
+            <label index="food_group.5" type="integer">239969207</label>
+            <label index="food_group.6" type="integer">23564433</label>
+            <label index="food_group.0" type="integer">217895432</label>
+        </languageKey>
+        <languageKey index="dk" type="array">
+            <label index="list_mode_1" type="integer">69879231</label>
+            <label index="list_mode_2" type="integer">35312575</label>
+            <label index="list_mode_3" type="integer">115390729</label>
+            <label index="back" type="integer">5603241</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="vitamin.a" type="integer">133977639</label>
+            <label index="vitamin.d" type="integer">258096757</label>
+            <label index="vitamin.e" type="integer">61073920</label>
+            <label index="vitamin.b1" type="integer">211096150</label>
+            <label index="vitamin.b2" type="integer">196974512</label>
+            <label index="vitamin.b5" type="integer">39357272</label>
+            <label index="vitamin.b6" type="integer">109780764</label>
+            <label index="vitamin.b9" type="integer">170607054</label>
+            <label index="vitamin.b12" type="integer">145555074</label>
+            <label index="vitamin.c" type="integer">14032771</label>
+            <label index="vitamin.h" type="integer">203267920</label>
+            <label index="vitamin.b3" type="integer">12905687</label>
+            <label index="vitamin.vit_k" type="integer">233693079</label>
+            <label index="vitamin.description" type="integer">194011223</label>
+            <label index="tx_vvmaistoforas.product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas.vitamin" type="integer">137567981</label>
+            <label index="tx_vvmaistoforas.nutrient" type="integer">19751121</label>
+            <label index="tx_vvmaistoforas.mineral" type="integer">143643337</label>
+            <label index="tx_vvmaistoforas.food_group" type="integer">30866765</label>
+            <label index="nutrient.augaliniai_baltymai" type="integer">185054621</label>
+            <label index="nutrient.augaliniai_riebalai" type="integer">20588255</label>
+            <label index="nutrient.angliavandeniai_krakmolas" type="integer">212753066</label>
+            <label index="nutrient.angliavandeniai_cukrus" type="integer">179095002</label>
+            <label index="nutrient.angliavandeniai_maistines_skaidulos" type="integer">168388234</label>
+            <label index="nutrient.baltymai" type="integer">13911109</label>
+            <label index="nutrient.angliavandeniai" type="integer">82774877</label>
+            <label index="nutrient.riebalai" type="integer">111295537</label>
+            <label index="nutrient.description" type="integer">222791195</label>
+            <label index="mineral.description" type="integer">6683957</label>
+            <label index="food_group.description" type="integer">191519157</label>
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="dk" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+        <languageKey index="no" type="array">
+        </languageKey>
+        <languageKey index="it" type="array">
+        </languageKey>
+        <languageKey index="fr" type="array">
+        </languageKey>
+        <languageKey index="es" type="array">
+        </languageKey>
+        <languageKey index="nl" type="array">
+        </languageKey>
+        <languageKey index="cz" type="array">
+        </languageKey>
+        <languageKey index="pl" type="array">
+        </languageKey>
+        <languageKey index="si" type="array">
+        </languageKey>
+        <languageKey index="fi" type="array">
+        </languageKey>
+        <languageKey index="tr" type="array">
+        </languageKey>
+        <languageKey index="se" type="array">
+        </languageKey>
+        <languageKey index="pt" type="array">
+        </languageKey>
+        <languageKey index="ru" type="array">
+        </languageKey>
+        <languageKey index="ro" type="array">
+        </languageKey>
+        <languageKey index="ch" type="array">
+        </languageKey>
+        <languageKey index="sk" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+        <languageKey index="is" type="array">
+        </languageKey>
+        <languageKey index="hr" type="array">
+        </languageKey>
+        <languageKey index="hu" type="array">
+        </languageKey>
+        <languageKey index="gl" type="array">
+        </languageKey>
+        <languageKey index="th" type="array">
+        </languageKey>
+        <languageKey index="gr" type="array">
+        </languageKey>
+        <languageKey index="hk" type="array">
+        </languageKey>
+        <languageKey index="eu" type="array">
+        </languageKey>
+        <languageKey index="bg" type="array">
+        </languageKey>
+        <languageKey index="br" type="array">
+        </languageKey>
+        <languageKey index="et" type="array">
+        </languageKey>
+        <languageKey index="ar" type="array">
+        </languageKey>
+        <languageKey index="he" type="array">
+        </languageKey>
+        <languageKey index="ua" type="array">
+        </languageKey>
+        <languageKey index="lv" type="array">
+        </languageKey>
+        <languageKey index="jp" type="array">
+        </languageKey>
+        <languageKey index="vn" type="array">
+        </languageKey>
+        <languageKey index="ca" type="array">
+        </languageKey>
+        <languageKey index="ba" type="array">
+        </languageKey>
+        <languageKey index="kr" type="array">
+        </languageKey>
+        <languageKey index="eo" type="array">
+        </languageKey>
+        <languageKey index="my" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

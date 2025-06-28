@@ -1,0 +1,7 @@
+(add new changes on top of this file)
+
+07-06-20 Miroslav Monkevic  <miroslav.monkevic@vektorius.lt>
+
+	* Initial release. Separated tables and data from vv_maistoforas. Created initial extension structure.
+
+	

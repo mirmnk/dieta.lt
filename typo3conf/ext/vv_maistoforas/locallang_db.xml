@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Maistoforo laiblai</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_general">Foodlight general settings</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_products">Products</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_recipes">Recipes</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_ingridients">Ingridients</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_substance">Substances descriptions</label>
+            <label index="tx_vvmaistoforas.pi_flexform.PIDitemDisplay">PageId for detailed info display</label>
+            <label index="tx_vvmaistoforas.pi_flexform.what_to_display">Display mode</label>
+            <label index="tx_vvmaistoforas_product">Product</label>
+            <label index="tx_vvmaistoforas_product.gr_equivalent">Weight of avaerage item in grams</label>
+            <label index="tx_vvmaistoforas_product.title">Title</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_baltymai">Augaliniai baltymai</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_riebalai">Augaliniai riebalai</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_krakmolas">Angliavandeniai krakmolas</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_cukrus">Angliavandeniai cukrus</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_maistines_skaidulos">Angliavandeniai maistines skaidulos</label>
+            <label index="tx_vvmaistoforas_product.na">Na</label>
+            <label index="tx_vvmaistoforas_product.mg">Mg</label>
+            <label index="tx_vvmaistoforas_product.p">P</label>
+            <label index="tx_vvmaistoforas_product.k">K</label>
+            <label index="tx_vvmaistoforas_product.ca">Ca</label>
+            <label index="tx_vvmaistoforas_product.fe">Fe</label>
+            <label index="tx_vvmaistoforas_product.zn">Zn</label>
+            <label index="tx_vvmaistoforas_product.se">Se</label>
+            <label index="tx_vvmaistoforas_product.j">J</label>
+            <label index="tx_vvmaistoforas_product.a">A</label>
+            <label index="tx_vvmaistoforas_product.d">D</label>
+            <label index="tx_vvmaistoforas_product.e">E</label>
+            <label index="tx_vvmaistoforas_product.b1">B1</label>
+            <label index="tx_vvmaistoforas_product.b2">B2</label>
+            <label index="tx_vvmaistoforas_product.b5">B5</label>
+            <label index="tx_vvmaistoforas_product.b6">B6</label>
+            <label index="tx_vvmaistoforas_product.b9">B9</label>
+            <label index="tx_vvmaistoforas_product.b12">B12</label>
+            <label index="tx_vvmaistoforas_product.c">C</label>
+            <label index="tx_vvmaistoforas_product.kj">kJ</label>
+            <label index="tx_vvmaistoforas_product.kcal">kcal</label>
+            <label index="tx_vvmaistoforas_product.h">H</label>
+            <label index="tx_vvmaistoforas_product.b3">B3</label>
+            <label index="tx_vvmaistoforas_product.vit_k">Vitamin K</label>
+            <label index="tx_vvmaistoforas_product.baltymai">Baltymai</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai">Angliavandeniai</label>
+            <label index="tx_vvmaistoforas_product.riebalai">Riebalai</label>
+            <label index="tx_vvmaistoforas_product.cholestirolis">Cholestirolis</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.0">Nepriklauso jokiai grupei</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.1">First</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.2">Second</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.3">Third</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.4">Forth</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.5">Fifth</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.6">Sixth</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe">Maisto grupe</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.1">Green</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.2">Red</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.3">Yellow</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa">Maistoforo sviesa</label>
+            <label index="tx_vvmaistoforas_product.description">Description</label>
+            <label index="tx_vvmaistoforas_product.pictures">Pictures</label>
+            <label index="tx_vvmaistoforas_receptas">Recipe</label>
+            <label index="tx_vvmaistoforas_receptas.title">Title</label>
+            <label index="tx_vvmaistoforas_receptas.description">Description</label>
+            <label index="tx_vvmaistoforas_receptas.pictires">Pictures</label>
+            <label index="tx_vvmaistoforas_receptas.ingridients">Ingridients</label>
+            <label index="tx_vvmaistoforas_ingridient">Ingridient</label>
+            <label index="tx_vvmaistoforas_ingridient.product">Product</label>
+            <label index="tx_vvmaistoforas_ingridient.title">Title</label>
+            <label index="tx_vvmaistoforas_ingridient.ammount">Ammount in grams</label>
+            <label index="tx_vvmaistoforas_substance">Substance</label>
+            <label index="tx_vvmaistoforas_substance.alias">Alias</label>
+            <label index="tx_vvmaistoforas_substance.units">Units</label>
+            <label index="tx_vvmaistoforas_substance.description">Description</label>
+            <label index="tt_content.list_type_pi1">food-light</label>
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_general">Maistoforo nustatymai</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_products">Produktai</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_recipes">Receptai</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_ingridients">Ingridientai</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_substance">Medžiagų aprašymai</label>
+            <label index="tx_vvmaistoforas.pi_flexform.PIDitemDisplay">Puslapis detalesnei informacijai atvaizduoti</label>
+            <label index="tx_vvmaistoforas.pi_flexform.what_to_display">Atvaizdavimo režimas</label>
+            <label index="tx_vvmaistoforas_product">Produktas</label>
+            <label index="tx_vvmaistoforas_product.gr_equivalent">Vidutinio produkto vieneto svoris gramais</label>
+            <label index="tx_vvmaistoforas_product.title">Pavadinimas</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_baltymai">Augaliniai baltymai</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_riebalai">Augaliniai riebalai</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_krakmolas">Angliavandeniai krakmolas</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_cukrus">Angliavandeniai cukrus</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_maistines_skaidulos">Angliavandeniai maistines skaidulos</label>
+            <label index="tx_vvmaistoforas_product.na">Na</label>
+            <label index="tx_vvmaistoforas_product.mg">Mg</label>
+            <label index="tx_vvmaistoforas_product.p">P</label>
+            <label index="tx_vvmaistoforas_product.k">K</label>
+            <label index="tx_vvmaistoforas_product.ca">Ca</label>
+            <label index="tx_vvmaistoforas_product.fe">Fe</label>
+            <label index="tx_vvmaistoforas_product.zn">Zn</label>
+            <label index="tx_vvmaistoforas_product.se">Se</label>
+            <label index="tx_vvmaistoforas_product.j">J</label>
+            <label index="tx_vvmaistoforas_product.a">A</label>
+            <label index="tx_vvmaistoforas_product.d">D</label>
+            <label index="tx_vvmaistoforas_product.e">E</label>
+            <label index="tx_vvmaistoforas_product.b1">B1</label>
+            <label index="tx_vvmaistoforas_product.b2">B2</label>
+            <label index="tx_vvmaistoforas_product.b5">B5</label>
+            <label index="tx_vvmaistoforas_product.b6">B6</label>
+            <label index="tx_vvmaistoforas_product.b9">B9</label>
+            <label index="tx_vvmaistoforas_product.b12">B12</label>
+            <label index="tx_vvmaistoforas_product.c">C</label>
+            <label index="tx_vvmaistoforas_product.kj">kJ</label>
+            <label index="tx_vvmaistoforas_product.kcal">kcal</label>
+            <label index="tx_vvmaistoforas_product.h">H</label>
+            <label index="tx_vvmaistoforas_product.b3">B3</label>
+            <label index="tx_vvmaistoforas_product.vit_k">Vitaminas K</label>
+            <label index="tx_vvmaistoforas_product.baltymai">Baltymai</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai">Angliavandeniai</label>
+            <label index="tx_vvmaistoforas_product.riebalai">Riebalai</label>
+            <label index="tx_vvmaistoforas_product.cholestirolis">Cholestirolis</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.0">Nepriklauso jokiai grupei</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.1">Pirma</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.2">Antra</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.3">TreÄ¨ia</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.4">Ketvirta</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.5">Penkta</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.6">Å esta</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe">Maisto grupe</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.1">Žalia</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.2">Raudona</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.3">Geltona</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa">Maistoforo sviesa</label>
+            <label index="tx_vvmaistoforas_product.description">Aprašymas</label>
+            <label index="tx_vvmaistoforas_product.pictures">Paveikslai</label>
+            <label index="tx_vvmaistoforas_receptas">Receptas</label>
+            <label index="tx_vvmaistoforas_receptas.title">Pavadinimas</label>
+            <label index="tx_vvmaistoforas_receptas.description">Aprašymas</label>
+            <label index="tx_vvmaistoforas_receptas.pictires">Nuotraukos</label>
+            <label index="tx_vvmaistoforas_receptas.ingridients">Ingridientai</label>
+            <label index="tx_vvmaistoforas_ingridient">Ingridientas</label>
+            <label index="tx_vvmaistoforas_ingridient.product">Produktas</label>
+            <label index="tx_vvmaistoforas_ingridient.title">Pavadinimas</label>
+            <label index="tx_vvmaistoforas_ingridient.ammount">kiekis gramais</label>
+            <label index="tx_vvmaistoforas_substance">Medziaga</label>
+            <label index="tx_vvmaistoforas_substance.alias">Aliasas</label>
+            <label index="tx_vvmaistoforas_substance.units">Vienetai</label>
+            <label index="tx_vvmaistoforas_substance.description">Aprasymas</label>
+            <label index="tt_content.list_type_pi1">Maistoforas</label>
+        </languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+        
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_general" type="integer">2234744</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_products" type="integer">6879244</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_recipes" type="integer">1391134</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_ingridients" type="integer">26873124</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_substance" type="integer">165208857</label>
+            <label index="tx_vvmaistoforas.pi_flexform.PIDitemDisplay" type="integer">268263154</label>
+            <label index="tx_vvmaistoforas.pi_flexform.what_to_display" type="integer">194991965</label>
+            <label index="tx_vvmaistoforas_product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas_product.gr_equivalent" type="integer">190468201</label>
+            <label index="tx_vvmaistoforas_product.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_baltymai" type="integer">98998321</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_riebalai" type="integer">83882022</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_krakmolas" type="integer">198612205</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_cukrus" type="integer">22566536</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_maistines_skaidulos" type="integer">94580007</label>
+            <label index="tx_vvmaistoforas_product.na" type="integer">153074719</label>
+            <label index="tx_vvmaistoforas_product.mg" type="integer">183946680</label>
+            <label index="tx_vvmaistoforas_product.p" type="integer">72100333</label>
+            <label index="tx_vvmaistoforas_product.k" type="integer">174013546</label>
+            <label index="tx_vvmaistoforas_product.ca" type="integer">54975879</label>
+            <label index="tx_vvmaistoforas_product.fe" type="integer">224939907</label>
+            <label index="tx_vvmaistoforas_product.zn" type="integer">102507890</label>
+            <label index="tx_vvmaistoforas_product.se" type="integer">173653322</label>
+            <label index="tx_vvmaistoforas_product.j" type="integer">267666800</label>
+            <label index="tx_vvmaistoforas_product.a" type="integer">133977639</label>
+            <label index="tx_vvmaistoforas_product.d" type="integer">258096757</label>
+            <label index="tx_vvmaistoforas_product.e" type="integer">61073920</label>
+            <label index="tx_vvmaistoforas_product.b1" type="integer">211096150</label>
+            <label index="tx_vvmaistoforas_product.b2" type="integer">196974512</label>
+            <label index="tx_vvmaistoforas_product.b5" type="integer">44149545</label>
+            <label index="tx_vvmaistoforas_product.b6" type="integer">109780764</label>
+            <label index="tx_vvmaistoforas_product.b9" type="integer">26200331</label>
+            <label index="tx_vvmaistoforas_product.b12" type="integer">145555074</label>
+            <label index="tx_vvmaistoforas_product.c" type="integer">14032771</label>
+            <label index="tx_vvmaistoforas_product.kj" type="integer">23551015</label>
+            <label index="tx_vvmaistoforas_product.kcal" type="integer">129986497</label>
+            <label index="tx_vvmaistoforas_product.h" type="integer">203267920</label>
+            <label index="tx_vvmaistoforas_product.b3" type="integer">12905687</label>
+            <label index="tx_vvmaistoforas_product.vit_k" type="integer">233693079</label>
+            <label index="tx_vvmaistoforas_product.baltymai" type="integer">156698992</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai" type="integer">49954448</label>
+            <label index="tx_vvmaistoforas_product.riebalai" type="integer">260329150</label>
+            <label index="tx_vvmaistoforas_product.cholestirolis" type="integer">61523635</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.0" type="integer">81764398</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.1" type="integer">140161746</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.2" type="integer">25347256</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.3" type="integer">230355213</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.4" type="integer">92121324</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.5" type="integer">150156733</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.6" type="integer">244338558</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe" type="integer">201979952</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.1" type="integer">120684360</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.2" type="integer">143466730</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.3" type="integer">228353876</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa" type="integer">242081418</label>
+            <label index="tx_vvmaistoforas_product.description" type="integer">190479069</label>
+            <label index="tx_vvmaistoforas_product.pictures" type="integer">185720263</label>
+            <label index="tx_vvmaistoforas_receptas" type="integer">183463618</label>
+            <label index="tx_vvmaistoforas_receptas.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_receptas.description" type="integer">190479069</label>
+            <label index="tx_vvmaistoforas_receptas.pictires" type="integer">185720263</label>
+            <label index="tx_vvmaistoforas_receptas.ingridients" type="integer">26873124</label>
+            <label index="tx_vvmaistoforas_ingridient" type="integer">105641765</label>
+            <label index="tx_vvmaistoforas_ingridient.product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas_ingridient.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_ingridient.ammount" type="integer">134778412</label>
+            <label index="tx_vvmaistoforas_substance" type="integer">227292149</label>
+            <label index="tx_vvmaistoforas_substance.alias" type="integer">251648924</label>
+            <label index="tx_vvmaistoforas_substance.units" type="integer">240611747</label>
+            <label index="tx_vvmaistoforas_substance.description" type="integer">190479069</label>
+            <label index="tt_content.list_type_pi1" type="integer">181578788</label>
+        </languageKey>
+        <languageKey index="lt" type="array">
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_general" type="integer">2234744</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_products" type="integer">6879244</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_recipes" type="integer">1391134</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_ingridients" type="integer">26873124</label>
+            <label index="tx_vvmaistoforas.pi_flexform.sheet_substance" type="integer">165208857</label>
+            <label index="tx_vvmaistoforas.pi_flexform.PIDitemDisplay" type="integer">268263154</label>
+            <label index="tx_vvmaistoforas.pi_flexform.what_to_display" type="integer">194991965</label>
+            <label index="tx_vvmaistoforas_product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas_product.gr_equivalent" type="integer">190468201</label>
+            <label index="tx_vvmaistoforas_product.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_baltymai" type="integer">98998321</label>
+            <label index="tx_vvmaistoforas_product.augaliniai_riebalai" type="integer">83882022</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_krakmolas" type="integer">198612205</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_cukrus" type="integer">22566536</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai_maistines_skaidulos" type="integer">94580007</label>
+            <label index="tx_vvmaistoforas_product.na" type="integer">153074719</label>
+            <label index="tx_vvmaistoforas_product.mg" type="integer">183946680</label>
+            <label index="tx_vvmaistoforas_product.p" type="integer">72100333</label>
+            <label index="tx_vvmaistoforas_product.k" type="integer">174013546</label>
+            <label index="tx_vvmaistoforas_product.ca" type="integer">54975879</label>
+            <label index="tx_vvmaistoforas_product.fe" type="integer">224939907</label>
+            <label index="tx_vvmaistoforas_product.zn" type="integer">102507890</label>
+            <label index="tx_vvmaistoforas_product.se" type="integer">173653322</label>
+            <label index="tx_vvmaistoforas_product.j" type="integer">267666800</label>
+            <label index="tx_vvmaistoforas_product.a" type="integer">133977639</label>
+            <label index="tx_vvmaistoforas_product.d" type="integer">258096757</label>
+            <label index="tx_vvmaistoforas_product.e" type="integer">61073920</label>
+            <label index="tx_vvmaistoforas_product.b1" type="integer">211096150</label>
+            <label index="tx_vvmaistoforas_product.b2" type="integer">196974512</label>
+            <label index="tx_vvmaistoforas_product.b5" type="integer">44149545</label>
+            <label index="tx_vvmaistoforas_product.b6" type="integer">109780764</label>
+            <label index="tx_vvmaistoforas_product.b9" type="integer">26200331</label>
+            <label index="tx_vvmaistoforas_product.b12" type="integer">145555074</label>
+            <label index="tx_vvmaistoforas_product.c" type="integer">14032771</label>
+            <label index="tx_vvmaistoforas_product.kj" type="integer">23551015</label>
+            <label index="tx_vvmaistoforas_product.kcal" type="integer">129986497</label>
+            <label index="tx_vvmaistoforas_product.h" type="integer">203267920</label>
+            <label index="tx_vvmaistoforas_product.b3" type="integer">12905687</label>
+            <label index="tx_vvmaistoforas_product.vit_k" type="integer">233693079</label>
+            <label index="tx_vvmaistoforas_product.baltymai" type="integer">156698992</label>
+            <label index="tx_vvmaistoforas_product.angliavandeniai" type="integer">49954448</label>
+            <label index="tx_vvmaistoforas_product.riebalai" type="integer">260329150</label>
+            <label index="tx_vvmaistoforas_product.cholestirolis" type="integer">61523635</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.0" type="integer">81764398</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.1" type="integer">140161746</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.2" type="integer">25347256</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.3" type="integer">230355213</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.4" type="integer">92121324</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.5" type="integer">150156733</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe.I.6" type="integer">244338558</label>
+            <label index="tx_vvmaistoforas_product.maisto_grupe" type="integer">201979952</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.1" type="integer">120684360</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.2" type="integer">143466730</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa.I.3" type="integer">228353876</label>
+            <label index="tx_vvmaistoforas_product.maistoforo_sviesa" type="integer">242081418</label>
+            <label index="tx_vvmaistoforas_product.description" type="integer">190479069</label>
+            <label index="tx_vvmaistoforas_product.pictures" type="integer">185720263</label>
+            <label index="tx_vvmaistoforas_receptas" type="integer">183463618</label>
+            <label index="tx_vvmaistoforas_receptas.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_receptas.description" type="integer">190479069</label>
+            <label index="tx_vvmaistoforas_receptas.pictires" type="integer">185720263</label>
+            <label index="tx_vvmaistoforas_receptas.ingridients" type="integer">26873124</label>
+            <label index="tx_vvmaistoforas_ingridient" type="integer">105641765</label>
+            <label index="tx_vvmaistoforas_ingridient.product" type="integer">233508945</label>
+            <label index="tx_vvmaistoforas_ingridient.title" type="integer">192455458</label>
+            <label index="tx_vvmaistoforas_ingridient.ammount" type="integer">134778412</label>
+            <label index="tx_vvmaistoforas_substance" type="integer">227292149</label>
+            <label index="tx_vvmaistoforas_substance.alias" type="integer">251648924</label>
+            <label index="tx_vvmaistoforas_substance.units" type="integer">240611747</label>
+            <label index="tx_vvmaistoforas_substance.description" type="integer">190479069</label>
+            <label index="tt_content.list_type_pi1" type="integer">181578788</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="lt" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

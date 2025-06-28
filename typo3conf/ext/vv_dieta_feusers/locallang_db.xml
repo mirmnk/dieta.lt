@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'vv_dieta_feusers'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="fe_users.tx_vvdietafeusers_weight">Weight (kg)</label>
+		</languageKey>
+		<languageKey index="lt" type="array">
+			<label index="fe_users.tx_vvdietafeusers_weight">Svoris (kg)</label>
+		</languageKey>
+		<languageKey index="ru" type="array">
+			<label index="fe_users.tx_vvdietafeusers_weight">Вес (кг)</label>
+		</languageKey>
+	</data>
+</T3locallang>

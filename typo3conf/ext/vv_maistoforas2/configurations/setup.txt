@@ -1,0 +1,435 @@
+
+# Common configuration
+
+plugin.tx_vvmaistoforas2.configurations {
+    isNormFormInfoShort = 0
+	phpTemplatePath = EXT:vv_maistoforas2/templates/
+	pathToLanguageFile = EXT:vv_maistoforas2/llxml/locallang.xml
+	pList = productList
+	pListFormSubstSelector = productListSubstSubSelector
+	pListSearchForm = productListSearchForm
+	pValueList = productValueList
+	pValueSearchForm = productValueSearchForm
+	pValueSearchFormList = productValueSearchFormList	
+	nNormpValueSearchFormList = nnorm_productValueSearchFormList	
+	nNormpValueSearchForm = nnorm_productValueSearchForm	
+	nNormpValueList = nnorm_productValueList
+	nNormResults = nutritionalNormResults
+	pValueShowProduct = productValueShow
+	nNormInfoForm = nutritionalNormInfoForm
+	nNormInfoFormShort = nutritionalNormInfoFormShort
+	nNormRationForm = nutritionalNormRationForm
+	floatFormat = ,.2
+#spinner config
+	spinnerEnabled = 1 
+	spinnerFilePath = EXT:vv_maistoforas2/res/spinner.gif
+	spinnerTimeInSeconds = 0.5
+	spinnerImgId = vv_maistoforas2_spinner
+	spinnerImgAlt = spinner
+	spinnerImgStyle = position:absolute; top: 60px;left:70px; 
+	
+	spinnerNnormPList {
+		spinnerEnabled = 1 
+		spinnerFilePath = EXT:vv_maistoforas2/res/spinner.gif
+		spinnerTimeInSeconds = 0.5
+		spinnerImgId = vv_maistoforas2_spinnerNnormPList
+		spinnerImgAlt = spinner
+		spinnerImgStyle = position:absolute; z-index: 1000;background-color: #fff; 
+	}
+	
+	pValueListViewAjax = 0
+	pVAlueSingleViewAjax = 1
+	
+	validationRulesNormInfo {
+	  10 {
+	    field = age
+	    pattern = /[0-9]{1,2}/
+	    message = %%%tx_vvmaistoforas2_nNormInfoForm_validation_age%%%
+	  }
+
+	  11 {
+	    field = age
+	    pattern = /19|[2-5][0-9]|6[0-4]/
+	    message = %%%tx_vvmaistoforas2_nNormInfoForm_validation_gender_limit_php%%%
+	  }
+
+	  20 {
+	    field = gender
+	    pattern = /[1-2]/
+	    message = %%%tx_vvmaistoforas2_nNormInfoForm_validation_gender%%%
+	  }
+
+	  30 {
+	    field = const
+	    pattern = /[1-2]/
+	    message = %%%tx_vvmaistoforas2_nNormInfoForm_validation_const%%%
+	  }
+
+	  40 {
+	    field = activity
+	    pattern = /[1-4]/
+	    message = %%%tx_vvmaistoforas2_nNormInfoForm_validation_activity%%%
+	  }
+	}
+
+	validationRulesNormRation {
+	  10 {
+	    field = rationstatus
+	    pattern = /true/
+	    message = Ration false
+	  }
+    }
+	pagerActivePageWrap = <strong>|</strong>
+	highlightWrap = <span style="background-color:#ffe153">|</span>
+	fieldsToHighlight = title
+	pListSearchFormSelectors = pListSearchFormItems_vitamins,pListSearchFormItems_nutritionalSupplements,pListSearchFormItems_mineralSupplements,pListSearchFormItems_limit
+	pListSimpleSearchFormSelectors = pListSearchFormItems_substances,pListSearchFormItems_limit
+	pListHashSubstParamToSelectorTS {
+	  10 {
+	    parameter = vitamin
+	    selector = pListSearchFormItems_vitamins
+	  }
+	  20 {
+	    parameter = ns
+	    selector = pListSearchFormItems_nutritionalSupplements
+	  }
+	  30 {
+	    parameter = ms
+	    selector = pListSearchFormItems_mineralSupplements
+	  }
+
+	}
+	pListSearchFormItems_vitamins {
+	   5 {
+	     value = 0
+	     label =
+	   }
+
+	   10 {
+	     value = vitamin_a
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_a%%%
+	   }
+	   20 {
+	     value = vitamin_d
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_d%%%
+	   }
+	   30 {
+	     value = vitamin_e
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_e%%%
+	   }
+	   40 {
+	     value = vitamin_b1
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_b1%%%
+	   }
+	   50 {
+	     value = vitamin_b2
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_b2%%%
+	   }
+	   60 {
+	     value = niacin
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_niacin%%%
+	   }
+	   70 {
+	     value = vitamin_b6
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_b6%%%
+	   }
+	   80 {
+	     value = folic_acid
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_folic_acid%%%
+	   }
+	   90 {
+	     value = vitamin_b12
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_b12%%%
+	   }
+	   100 {
+	     value = vitamin_c
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vitamin_c%%%
+	   }
+	   110 {
+	     value = niacin_ekv
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_niacin_ekv%%%
+	   }
+	}
+	pListSearchFormItems_nutritionalSupplements {
+	   5 {
+	     value = 0
+	     label =
+	   }
+
+	   10 {
+	     value = proteins
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_proteins%%%
+	   }
+	   20 {
+	     value = animal_proteins
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_animal_proteins%%%
+	   }
+	   30 {
+	     value = vegetable_proteins
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_vegetable_proteins%%%
+	   }
+	   40 {
+	     value = fats
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_fats%%%
+	   }
+	   50 {
+	     value = saturated_fat
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_saturated_fat%%%
+	   }
+	   60 {
+	     value = monounsaturated_fat
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_monounsaturated_fat%%%
+	   }
+	   70 {
+	     value = polyunsaturated_fat
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_polyunsaturated_fat%%%
+	   }
+	   80 {
+	     value = carbohydrate
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_carbohydrate%%%
+	   }
+	   90 {
+	     value = starch
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_starch%%%
+	   }
+	   100 {
+	     value = sugar
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_sugar%%%
+	   }
+	   110 {
+	     value = fiber
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_fiber%%%
+	   }
+	}
+
+	pListSearchFormItems_mineralSupplements {
+	   5 {
+	     value = 0
+	     label =
+	   }
+
+	   10 {
+	     value = na
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_na%%%
+	   }
+	   20 {
+	     value = mg
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_mg%%%
+	   }
+	   30 {
+	     value = p
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_p%%%
+	   }
+	   40 {
+	     value = k
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_k%%%
+	   }
+	   50 {
+	     value = ca
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_ca%%%
+	   }
+	   60 {
+	     value = fe
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_fe%%%
+	   }
+	   70 {
+	     value = zn
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_zn%%%
+	   }
+	   80 {
+	     value = se
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_se%%%
+	   }
+	   90 {
+	     value = i
+	     label = %%%tx_vvmaistoforas2_pListForm_selector_i%%%
+	   }
+	}
+	pListSearchFormItems_limit {
+	   20 {
+	     value = 20
+	     label = 20
+	   }
+	   30 {
+	     value = 50
+	     label = 50
+	   }
+	   40 {
+	     value = 100
+	     label = 100
+	   }	
+	}
+	pListSearchFormItems_substances {
+	   5 {
+	     value = 0
+	     label =
+	   }
+	   10 {
+	     value = vitamin
+	     label = %%%tx_vvmaistoforas2_pListForm_vitamins_label%%%
+	   }
+	   20 {
+	     value = ns
+	     label = %%%tx_vvmaistoforas2_pListForm_nutritionalSupplements_label%%%
+	   }
+	   30 {
+	     value = ms
+	     label = %%%tx_vvmaistoforas2_pListForm_mineralSupplements_label%%%
+	   }
+	   40 {
+	     value = energy_density_kj,energy_density_kcal
+	     label = %%%tx_vvmaistoforas2_pListForm_energydensity_label%%%
+	   }	
+	   50 {
+	     value = cholesterol
+	     label = %%%tx_vvmaistoforas2_pListForm_holestirol_label%%%
+	   }	
+	}
+	ajaxPageType = {$plugin.tx_vvmaistoforas2.ajaxPageType}
+}
+
+# Includes
+includeLibs.tx_div = EXT:div/class.tx_div.php
+includeLibs.tx_lib_switch = EXT:lib/class.tx_lib_switch.php
+includeLibs {
+#  tx_vvmaistoforas2_controllers_pList = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pList.php
+#  tx_vvmaistoforas2_controllers_pValue = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pValue.php
+  tx_vvmaistoforas2_controllers_xajax = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_xajax.php
+}
+
+
+# The controller switch
+plugin.tx_vvmaistoforas2.controllerSwitch = USER
+plugin.tx_vvmaistoforas2.controllerSwitch{
+			userFunc = tx_lib_switch->main
+			flexFormSheetName = sDEF
+			flexFormFieldName = what_to_display
+
+			// product filter 
+			pListForm = USER_INT
+			pListForm { 
+				userFunc = tx_vvmaistoforas2_controllers_pListForm->main
+    		    configurations < plugin.tx_vvmaistoforas2.configurations
+				includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pListForm.php
+			}
+
+			// product filter list
+			pList = USER_INT
+			pList { 
+				userFunc = tx_vvmaistoforas2_controllers_pList->main
+			    configurations < plugin.tx_vvmaistoforas2.configurations
+				includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pList.php
+			}
+			
+			
+				// product nutriotional value Search Form		
+			pValueSearchForm = USER_INT
+			pValueSearchForm {
+			  userFunc = tx_vvmaistoforas2_controllers_pValueSearchForm->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pValueSearchForm.php  
+			}
+
+				// product nutriotional value List View
+			pValueListView = USER_INT
+			pValueListView {
+			  userFunc = tx_vvmaistoforas2_controllers_pValueListView->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pValueListView.php
+			  stdWrap.wrap = <div id="vv_maistoforas2-vv_maistoforas2-list">|</div>			  
+			}
+
+				// product nutriotional value Single View
+			pValueSingleView = USER_INT
+			pValueSingleView {
+			  userFunc = tx_vvmaistoforas2_controllers_pValueSingleView->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_pValueSingleView.php
+			}
+
+				// daily nutritional norm personal info form
+			nNormFormInfoShort = USER_INT
+			nNormFormInfoShort {
+			  userFunc = tx_vvmaistoforas2_controllers_nNormInfo->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  configurations.isNormFormInfoShort = 1
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_nNormInfo.php
+			}
+
+				// daily nutritional norm personal info form
+			nNormFormInfo = USER_INT
+			nNormFormInfo {
+			  userFunc = tx_vvmaistoforas2_controllers_nNormInfo->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_nNormInfo.php
+			}
+
+				// daily nutritional norm ration form
+			nNormFormRation = USER_INT
+			nNormFormRation {
+			  userFunc = tx_vvmaistoforas2_controllers_nNormRation->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_nNormRation.php
+			}
+
+				// daily nutritional norm results
+			nNormResults = USER_INT
+			nNormResults {
+			  userFunc = tx_vvmaistoforas2_controllers_nNormResults->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_nNormResults.php
+			}
+
+				// daily nutritional norm ration block filtered in some way
+			nNormResultsRation = USER_INT
+			nNormResultsRation {
+			  userFunc = tx_vvmaistoforas2_controllers_nNormResultsRation->main
+			  configurations < plugin.tx_vvmaistoforas2.configurations
+			  includeLibs = EXT:vv_maistoforas2/controllers/class.tx_vvmaistoforas2_controllers_nNormResultsRation.php
+			}
+
+
+
+			// product nutritional value 
+			pValue = CASE
+			pValue {
+			  key.data = GPvar:vv_maistoforas2_pvalue|pid
+			  key.intval = 1
+			  
+			  default = USER
+			  default {
+			    userFunc = tx_vvmaistoforas2_controllers_pValue->main
+				setupPath = plugin.tx_vvmaistoforas2.configurations.
+			  }
+			  
+			  0 = USER_INT
+			  0 {
+			    userFunc = tx_vvmaistoforas2_controllers_pValue->main
+				setupPath = plugin.tx_vvmaistoforas2.configurations.
+			  }
+			}
+
+}
+page.includeCSS.maistoforas201 = EXT:vv_maistoforas2/res/maistoforas2.css
+tt_content.list.20.tx_vvmaistoforas2 =< plugin.tx_vvmaistoforas2.controllerSwitch
+
+# The ajax response
+vv_maistoforas2AjaxResponse = PAGE
+vv_maistoforas2AjaxResponse.typeNum = {$plugin.tx_vvmaistoforas2.ajaxPageType}
+vv_maistoforas2AjaxResponse.config {
+  disableAllHeaderCode = true
+  locale_all = lt_LT.UTF-8
+  linkVars = L
+  metaCharset = utf-8
+  renderCharset = utf-8
+  language = lt
+  sys_language_uid = 0
+  sys_language_mode = content_fallback
+  sys_language_overlay = hideNonTranslated
+  sys_language_softMergeIfNotBlank =  tt_content:image,tt_content:header,tt_content:bodytext 
+}
+vv_maistoforas2AjaxResponse.50 = USER_INT
+vv_maistoforas2AjaxResponse.50 {
+		userFunc = tx_vvmaistoforas2_controllers_xajax->main
+		configurations < plugin.tx_vvmaistoforas2.configurations
+}

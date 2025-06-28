@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Maistoforas v2 FE labels</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">						
+			<label index="tx_vvmaistoforas2_pValue_tab1_label">Select from list</label>					
+			<label index="tx_vvmaistoforas2_pValue_tab2_label">Find</label>					
+			<label index="tx_vvmaistoforas2_pValue_pgroups_label">Select product group:</label>								
+			<label index="tx_vvmaistoforas2_pValue_products_label">Select product:</label>								
+			<label index="tx_vvmaistoforas2_pValue_product_search_label">Search for product:</label>
+			<label index="tx_vvmaistoforas2_pValue_products_submit_filter_label">Select</label>											
+			<label index="tx_vvmaistoforas2_pValue_products_submit_search_label">Search</label>											
+			
+			<label index="tx_vvmaistoforas2_pValue_products_reset_filter_label">Reset</label>	
+			<label index="tx_vvmaistoforas2_pValue_search_results_label">Search results:</label>											
+			<label index="tx_vvmaistoforas2_pValue_no_results_label">NO results found.</label>	
+
+			<label index="back">Back</label>	
+			<label index="back2">&lt;&lt; Back</label>
+			<label index="tx_vvmaistoforas2_basicproduct_ecode">Code</label>
+			<label index="tx_vvmaistoforas2_basicproduct_coefficient">Eatable part coefficient</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_water">Water</label>
+			<label index="tx_vvmaistoforas2_basicproduct_drysubst">Dry substance</label>
+			<label index="tx_vvmaistoforas2_basicproduct_proteins">Proteins (overal)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_animal_proteins">Animal proteins</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vegetable_proteins">Vegetable proteins</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fats">Fats (overal)</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_saturated_fat">Saturated fat</label>
+			<label index="tx_vvmaistoforas2_basicproduct_monounsaturated_fat">Monounsaturated fat</label>
+			<label index="tx_vvmaistoforas2_basicproduct_polyunsaturated_fat">Polyunsaturated fat</label>
+			<label index="tx_vvmaistoforas2_basicproduct_cholesterol">Cholesterol</label>
+			<label index="tx_vvmaistoforas2_basicproduct_carbohydrate">Carbohydrate</label>
+			<label index="tx_vvmaistoforas2_basicproduct_starch">Starch</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_sugar">Sugar (monosaccharide and disaccharide)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fiber">Fiber</label>
+			<label index="tx_vvmaistoforas2_basicproduct_na">Sodium</label>
+			<label index="tx_vvmaistoforas2_basicproduct_mg">Magnesium</label>
+			<label index="tx_vvmaistoforas2_basicproduct_p">Phosphorus</label>
+			<label index="tx_vvmaistoforas2_basicproduct_k">Potassium</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_ca">Calcium</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fe">Iron</label>
+			<label index="tx_vvmaistoforas2_basicproduct_zn">Zink</label>
+			<label index="tx_vvmaistoforas2_basicproduct_se">Selenium</label>
+			<label index="tx_vvmaistoforas2_basicproduct_i">Iodine</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_a">Vitamin A (retinal ekv.)</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_d">Vitamin D</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_e">Vitamin E (tocopherol ekv.)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b1">Vitamin B1</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b2">Vitamin B2</label>
+			<label index="tx_vvmaistoforas2_basicproduct_niacin">Niacin (vitamin PP)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_niacin_ekv">Niacin ekvivalent</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_folic_acid">Folic acid</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b6">Vitamin B6</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b12">Vitamin B12</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_c">Vitamin C</label>
+			<label index="tx_vvmaistoforas2_basicproduct_alcohol">Alcohol</label>
+			<label index="tx_vvmaistoforas2_basicproduct_energy_density_kj">Energy density (kJ)</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_energy_density_kcal">Energy density (kcal)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_mineral_subst">Mineral supplements (overal)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_pgroup">Product group</label>
+			
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_a">A (retinal ekv.)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_d">D</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_e">E (tocopherol ekv.)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b1">B1</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b2">B2</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_niacin">Niacin (vitamin PP)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_niacin_ekv">Niacin ekvivalent</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_folic_acid">Folic acid (B9)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b6">B6</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b12">B12</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_c">C</label>
+
+			<label index="tx_vvmaistoforas2_pListForm_fieldset1_legend">Select products by:</label>
+			<label index="tx_vvmaistoforas2_pListForm_fieldset2_legend">Display:</label>
+			<label index="tx_vvmaistoforas2_pListForm_vitamins_label">Vitamin:</label>
+			<label index="tx_vvmaistoforas2_pListForm_nutritionalSupplements_label">Nutritional supplement:</label>
+			<label index="tx_vvmaistoforas2_pListForm_mineralSupplements_label">Mineral supplement:</label>
+			<label index="tx_vvmaistoforas2_pListForm_energydensity_label">Energy density:</label>
+			<label index="tx_vvmaistoforas2_pListForm_holestirol_label">Holestirol:</label>
+			<label index="tx_vvmaistoforas2_pListForm_pname_label">Product name:</label>
+			<label index="tx_vvmaistoforas2_pListForm_pgroups_label">Select only products from group:</label>
+			<label index="tx_vvmaistoforas2_pListForm_sortIn_label">Sort in:</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_label">order</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_asc_label">ascending</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_desc_label">descending</label>
+			<label index="tx_vvmaistoforas2_pListForm_displayBy_label">Display</label>
+			<label index="tx_vvmaistoforas2_pListForm_displayByitems_label">products</label>																		
+
+
+			<label index="tx_vvmaistoforas2_pListForm_selector_proteins">Proteins (overal)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_animal_proteins">Animal proteins</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vegetable_proteins">Vegetable proteins</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fats">Fats (overal)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_saturated_fat">Saturated fat</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_monounsaturated_fat">Monounsaturated fat</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_polyunsaturated_fat">Polyunsaturated fat</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_carbohydrate">Carbohydrate</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_starch">Starch</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_sugar">Sugar (monosaccharide and disaccharide)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fiber">Fiber</label>
+
+			<label index="tx_vvmaistoforas2_pListForm_selector_na">Sodium (Na)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_mg">Magnesium (Mg)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_p">Phosphorus (P)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_k">Potassium (K)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_ca">Calcium (Ca)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fe">Iron (Fe)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_zn">Zink (Zn)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_se">Selenium (Se)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_i">Iodine (I)</label>
+			<label index="tx_vvmaistoforas2_pListForm_layout_label">Display results as</label>
+			<label index="tx_vvmaistoforas2_pListForm_layout_block_label">info. blocks</label>
+			<label index="tx_vvmaistoforas2_pListForm_layout_table_label">table</label>
+
+			
+			<label index="tx_vvmaistoforas2_pList_numberOfProducts">Products filtered:</label>
+			<label index="tx_vvmaistoforas2_pList_displayingPage_message">Displaying page</label>
+			<label index="tx_vvmaistoforas2_pList_displayingPageOf_message">of</label>			
+			<label index="tx_vvmaistoforas2_pList_pagerPrev">&lt;&lt;</label>		
+			<label index="tx_vvmaistoforas2_pList_pagerNext">&gt;&gt;</label>		
+
+			<label index="tx_vvmaistoforas2_nNorm_tab1_label">Personal info</label>		
+			<label index="tx_vvmaistoforas2_nNorm_tab2_label">Daily ration</label>		
+			<label index="tx_vvmaistoforas2_nNorm_tab3_label">Daily norm</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_fieldset1_legend">Input personal data:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_short_legend">Daily norm: find out if your ration is OK</label>
+
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_required">This field is required.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_digit">Please enter a valid integer.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_radios">Please select a radio.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_age">Please fill age field.</label>					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender">Please select your gender.</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender_limit">Sorry, calculations are available for persons from %0 to %1 years old</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender_limit_php">Sorry, calculations are available for persons from 19 to 64 years old</label>					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_const">Please select your body constitution type.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_activity">Please select your activity level.</label>		
+			
+			<label index="tx_vvmaistoforas2_nNormInfoForm_age_label">Age:</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_age_label2"> </label>
+					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_gender_label">Sex:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_male_label">Male</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_female_label">Female</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_pregnant_label">pregnant</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_nursing_label">nursing</label>							
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_label">Body constitution:</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_heavy_label">Heavy-set</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_spare_label">Spare</label>	
+
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_label">Activity level:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_1_label">low</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_2_label">mediom</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_3_label">high</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_4_label">very high</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_1_message">dirbate protini darba, visur vaziuojate automobiliu, beveik visada naudojates liftu</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_2_message">dirbate lengva fizini darba, arba dirbate protini darba, taciau  reguliariai apilankote sporto klube vidutinio intensyvumo treniruotese</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_3_message">dirbate  fizini darba, arba  dirbate protini darba, taciau  reguliariai apilankote sporto klube intensyviose treniruotese</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_4_message">dirbate sunku fizini darba arba kasdien labai intensyviai sportuojate</label>	
+			<label index="tx_vvmaistoforas2_nnorm_submit_next_label">Next &gt;&gt;</label>				
+			<label index="tx_vvmaistoforas2_nnorm_submit_prev_label">&lt;&lt; Back</label>
+			<label index="tx_vvmaistoforas2_nnorm_submit_calculate_label">CALCULATE</label>				
+			<label index="tx_vvmaistoforas2_nNormInfoForm_personal_info_label">Personal info</label>				
+
+			<label index="tx_vvmaistoforas2_nNormRationForm_fieldset1_legend">Select product:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_fieldset2_legend">Input ammount:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_ration_label">Your ration today:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_grams_label">g</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_norm_add_label">Add</label>
+			
+			<label index="tx_vvmaistoforas2_nNormResultsForm_substance_label">Substance</label>		
+			<label index="tx_vvmaistoforas2_nNormResultsForm_ration_label">Ration</label>		
+			<label index="tx_vvmaistoforas2_nNormResultsForm_norm_label">Day norm</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_normdiff_label">Diff</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_part_of_norm_label">Part of ration</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_proportion_label">Carbohydrates-proteins-fats proportion</label>
+
+        </languageKey>
+        <languageKey index="lt" type="array">	
+			<label index="tx_vvmaistoforas2_pValue_tab1_label">Pasirinkti iš sąrašo</label>					
+			<label index="tx_vvmaistoforas2_pValue_tab2_label">Surasti</label>
+			<label index="tx_vvmaistoforas2_pValue_pgroups_label">Pasirinkite produktų grupę:</label>								
+			<label index="tx_vvmaistoforas2_pValue_product_search_label">Ieškoti produkto(-ų):</label>
+			<label index="tx_vvmaistoforas2_pValue_products_label">Pasirinkite produktą:</label>								
+			<label index="tx_vvmaistoforas2_pValue_products_submit_filter_label">Pasirinkti</label>											
+			<label index="tx_vvmaistoforas2_pValue_products_submit_search_label">Ieškoti</label>											
+			<label index="tx_vvmaistoforas2_pValue_products_reset_filter_label">Valyti</label>	
+			<label index="tx_vvmaistoforas2_pValue_search_results_label">Paieškos rezultatai:</label>											
+			<label index="tx_vvmaistoforas2_pValue_no_results_label">Nieko nerasta.</label>	
+
+			<label index="back">Atgal</label>
+			<label index="back2">&lt;&lt; Grįžti atgal</label>	
+			<label index="tx_vvmaistoforas2_pgroups_ecode">Kodas</label>
+			<label index="tx_vvmaistoforas2_pgroups_title">Pavadinimas</label>
+			<label index="tx_vvmaistoforas2_basicproduct">Bazinis produktas</label>
+			<label index="tx_vvmaistoforas2_basicproduct_title">Pavadinimas</label>
+			<label index="tx_vvmaistoforas2_basicproduct_ecode">Kodas</label>
+			<label index="tx_vvmaistoforas2_basicproduct_coefficient">Valgomosios dalies koeficientas</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_water">Vandens</label>
+			<label index="tx_vvmaistoforas2_basicproduct_drysubst">Sausųjų medžiagų</label>
+			<label index="tx_vvmaistoforas2_basicproduct_proteins">Baltymų - iš viso</label>
+			<label index="tx_vvmaistoforas2_basicproduct_animal_proteins">Gyvūninių baltymų</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vegetable_proteins">Augalinių baltymų</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fats">Riebalų - iš viso</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_saturated_fat">Sočiųjų riebalų rūgščių</label>
+			<label index="tx_vvmaistoforas2_basicproduct_monounsaturated_fat">Mononesočiųjų riebalų rūgščių</label>
+			<label index="tx_vvmaistoforas2_basicproduct_polyunsaturated_fat">polinesočiųjų riebalų rūgščių</label>
+			<label index="tx_vvmaistoforas2_basicproduct_cholesterol">Cholesterolio</label>
+			<label index="tx_vvmaistoforas2_basicproduct_carbohydrate">Angliavandenių - iš viso</label>
+			<label index="tx_vvmaistoforas2_basicproduct_starch">Krakmolo</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_sugar">cukrų (mono- ir disacharidų)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fiber">Skaidulinių medžiagų</label>
+			<label index="tx_vvmaistoforas2_basicproduct_na">Natrio</label>
+			<label index="tx_vvmaistoforas2_basicproduct_mg">Magnio</label>
+			<label index="tx_vvmaistoforas2_basicproduct_p">Fosforo</label>
+			<label index="tx_vvmaistoforas2_basicproduct_k">Kalio</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_ca">Kalcio</label>
+			<label index="tx_vvmaistoforas2_basicproduct_fe">Geležies</label>
+			<label index="tx_vvmaistoforas2_basicproduct_zn">Cinko</label>
+			<label index="tx_vvmaistoforas2_basicproduct_se">Seleno</label>
+			<label index="tx_vvmaistoforas2_basicproduct_i">Jodo</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_a">Vitamino A (retinolio ekv.)</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_d">Vitamino D</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_e">Vitamino E (tokoferolio ekv.)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b1">Vitamino B1</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b2">Vitamino B2</label>
+			<label index="tx_vvmaistoforas2_basicproduct_niacin">Niacinio (vitamino PP)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_niacin_ekv">Niacinio ekv.</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_folic_acid">Folio rugšties</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b6">Vitamino B6</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_b12">Vitamino B12</label>
+			<label index="tx_vvmaistoforas2_basicproduct_vitamin_c">Vitamino C</label>
+			<label index="tx_vvmaistoforas2_basicproduct_alcohol">Alkoholio</label>
+			<label index="tx_vvmaistoforas2_basicproduct_energy_density_kj">Energinė vertė (kJ)</label>
+
+			<label index="tx_vvmaistoforas2_basicproduct_energy_density_kcal">Energinė vertė (kcal)</label>
+			<label index="tx_vvmaistoforas2_basicproduct_mineral_subst">Mineralinių medžiagų</label>
+			<label index="tx_vvmaistoforas2_basicproduct_pgroup">Produktų grupė</label>
+
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_a">A (retinolio ekv.)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_d">D</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_e">E (tokoferolio ekv.)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b1">B1</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b2">B2</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_niacin">Niacin (vitaminas PP arba B5)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_niacin_ekv">Niacino ekv.</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_folic_acid">Folio rugštis (arba B9)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b6">B6</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_b12">B12</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vitamin_c">C</label>
+			
+			<label index="tx_vvmaistoforas2_pListForm_fieldset1_legend">Atrinkti produktus pagal:</label>
+			<label index="tx_vvmaistoforas2_pListForm_fieldset2_legend">Atvaizdavimas:</label>
+			<label index="tx_vvmaistoforas2_pListForm_vitamins_label">Vitaminą:</label>
+			<label index="tx_vvmaistoforas2_pListForm_nutritionalSupplements_label">Maistinę medžiagą:</label>
+			<label index="tx_vvmaistoforas2_pListForm_mineralSupplements_label">Mineralinę medžiagą:</label>
+			<label index="tx_vvmaistoforas2_pListForm_energydensity_label">Energetinę vertę:</label>
+			<label index="tx_vvmaistoforas2_pListForm_holestirol_label">Cholesterolį:</label>
+			<label index="tx_vvmaistoforas2_pListForm_pname_label">Produkto pavadinimą:</label>		
+			<label index="tx_vvmaistoforas2_pListForm_pgroups_label">Rinkti tik produktus iš grupes:</label>
+			<label index="tx_vvmaistoforas2_pListForm_sortIn_label">Rušiuoti:</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_label">tvarka</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_asc_label">didėjimo</label>
+			<label index="tx_vvmaistoforas2_pListForm_order_desc_label">mažėjimo</label>
+			<label index="tx_vvmaistoforas2_pListForm_displayBy_label">Rodyti po</label>
+			<label index="tx_vvmaistoforas2_pListForm_displayByitems_label">produktų</label>																		
+			<label index="tx_vvmaistoforas2_pListForm_layout_label">Rodyti rezultatus kaip</label>
+			<label index="tx_vvmaistoforas2_pListForm_layout_block_label">info. blokus</label>
+			<label index="tx_vvmaistoforas2_pListForm_layout_table_label">lentelę</label>
+
+
+			<label index="tx_vvmaistoforas2_pListForm_selector_proteins">Baltymus (iš viso)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_animal_proteins">Gyvūninius baltymus</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_vegetable_proteins">Augalinius baltymus</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fats">Riebalus (iš viso)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_saturated_fat">Sočiasias riebalų rūgštys</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_monounsaturated_fat">Mononesočasias riebalų rūgštys</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_polyunsaturated_fat">Polinesočiasias riebalų rūgštys</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_carbohydrate">Angliavandenius (iš viso)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_starch">Krakmolą</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_sugar">Cukrų (mono- ir disacharidų)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fiber">Skaidulines medžiagas</label>
+
+			<label index="tx_vvmaistoforas2_pListForm_selector_na">Natrį (Na)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_mg">Magnį (Mg)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_p">Fosforą (P)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_k">Kalį (K)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_ca">Kalcį (Ca)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_fe">Geležį (Fe)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_zn">Cinką (Zn)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_se">Seleną (Se)</label>
+			<label index="tx_vvmaistoforas2_pListForm_selector_i">Jodą (I)</label>
+
+			<label index="tx_vvmaistoforas2_pList_numberOfProducts">Atrinkta produktų:</label>
+			<label index="tx_vvmaistoforas2_pList_displayingPage_message">Rodomas puslapis</label>
+			<label index="tx_vvmaistoforas2_pList_displayingPageOf_message">iš</label>						
+			<label index="tx_vvmaistoforas2_pList_pagerPrev">&lt;&lt;</label>		
+			<label index="tx_vvmaistoforas2_pList_pagerNext">&gt;&gt;</label>	
+			<label index="tx_vvmaistoforas2_nnorm_submit_calculate_label">SKAIČIUOTI</label>	
+			
+			<label index="tx_vvmaistoforas2_nNorm_tab1_label">Duomenys</label>		
+			<label index="tx_vvmaistoforas2_nNorm_tab2_label">Dienos racionas</label>
+			<label index="tx_vvmaistoforas2_nNorm_tab3_label">Dienos norma</label>				
+			
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_required">Prašytume užpildyti lauka.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_digit">Prašytume įvesti galiojanti skaičiu.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_radios">Prašytume pasirinkti vieną iš variantų.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_age">Prašytume įvesti savo amžiu.</label>					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender">Prašytume pasirinkti savo lytį.</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender_limit">Atsiprašome, dienos normos skaičiuojamos asmenims nuo %0 iki %1  metų.</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_gender_limit_php">Atsiprašome, dienos normos skaičiuojamos asmenims nuo 19 iki 64  metų.</label>					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_const">Prašytume pasirinkti savo kūno sudejimo tipą.</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_validation_activity">Prašytume pasirinkti savo aktyvumo lygi.</label>		
+			
+
+			<label index="tx_vvmaistoforas2_nNormInfoForm_fieldset1_legend">Suveskite duomenys apie save:</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_short_legend">Dienos norma. Sužinok, ar sveikai šiandien valgei</label>
+					
+			<label index="tx_vvmaistoforas2_nNormInfoForm_age_label">Amžius:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_age_label2">m.</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_gender_label">Lytis:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_male_label">Vyras</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_female_label">Moteris</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_pregnant_label">nėščioji</label>
+			<label index="tx_vvmaistoforas2_nNormInfoForm_nursing_label">maitinanti</label>									
+			
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_label">Kūno sudėjimas:</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_heavy_label">Stambus</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_constitution_spare_label">Liesas</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_personal_info_label">Jūsų duomenys</label>				
+
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_label">Aktyvumo lygis:</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_1_label">žemas</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_2_label">vidutinis</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_3_label">aukštas</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_4_label">labai aukštas</label>		
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_1_message">dirbate protinį darbą, visur važiuojate automobiliu, beveik visada naudojatės liftu</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_2_message">dirbate lengvą fizinį darbą arba dirbate protinį darbą, tačiau reguliariai apsilankote sporto klube vidutinio intensyvumo treniruotėse</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_3_message">dirbate fizinį darbą arba dirbate protinį darbą, tačiau reguliariai apsilankote sporto klube intensyviose treniruotėse</label>	
+			<label index="tx_vvmaistoforas2_nNormInfoForm_activity_4_message">dirbate sunkų fizinį darbą arba kasdien labai intensyviai sportuojate</label>	
+			<label index="tx_vvmaistoforas2_nnorm_submit_next_label">TOLIAU</label>				
+			<label index="tx_vvmaistoforas2_nnorm_submit_prev_label">ATGAL</label>				
+
+			<label index="tx_vvmaistoforas2_nNormRationForm_fieldset1_legend">Pasirinkite produktą:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_fieldset2_legend">Įrašykite kiekį:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_ration_label">Šiandien suvalgėte:</label>		
+			<label index="tx_vvmaistoforas2_nNormRationForm_grams_label">g.</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_substance_label">Medžiaga</label>		
+			<label index="tx_vvmaistoforas2_nNormResultsForm_ration_label">Suvartojote</label>		
+			<label index="tx_vvmaistoforas2_nNormResultsForm_norm_label">Dienos norma</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_norm_add_label">Pridėti</label>
+			
+			<label index="tx_vvmaistoforas2_nNormResultsForm_sugar_message">Ne turi viršyti 10% maisto davinio energines vertės</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_proteins_message">Privalo sudaryti 10-15% maisto davinio energines vertės</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_fats_message">Privalo sudaryti 28-30% maisto davinio energines vertės</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_carbohydrates_message">Privalo sudaryti 55-62% maisto davinio energines vertės</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_part_of_norm_label">Sudaro raciono dalį</label>
+			<label index="tx_vvmaistoforas2_nNormResultsForm_proportion_label">Angliavandenių-baltymų-riebalų santykis</label>
+			
+
+			<label index="tx_vvmaistoforas2_nNormResultsForm_normdiff_label">Skirtumas</label>			
+        </languageKey>
+		<languageKey index="ru" type="array">						
+		</languageKey>
+        
+    </data>
+</T3locallang>
